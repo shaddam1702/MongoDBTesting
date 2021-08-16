@@ -5,8 +5,10 @@ spring:
     name: mongoProject
   data:
     mongodb:
-      database: mongotest
-      host: localhost
-      port: 27017
+#      database: mongotest
+#      host: localhost
+#      port: 27017
+       uri: mongodb://localhost:27020,localhost:27017,localhost:27021/mongotest
+    
 server:
   port: 9085
