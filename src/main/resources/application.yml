@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: mongoProject
+  data:
+    mongodb:
+      database: mongotest
+      host: localhost
+      port: 27017
+server:
+  port: 9085
